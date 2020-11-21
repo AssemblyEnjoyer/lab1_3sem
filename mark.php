@@ -25,8 +25,5 @@ if (isset($_GET['mark'])) {
 			} 
 		}
 	}
-} else {
-	echo "0";
-}
-
+} else echo "Unable to acquire data";	
 ?>
