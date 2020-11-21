@@ -22,6 +22,6 @@ if (isset($_GET['delete'])) {
 		}
 		header('Location: index.php');
 	}
-} 
+} else echo "Unable to acquire data";
 
 ?>
