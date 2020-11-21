@@ -21,6 +21,6 @@ if (isset($_POST['add'])) {
 			}
 		}
 	}
-}
+} else echo "Unable to acquire data";
 
 ?>
